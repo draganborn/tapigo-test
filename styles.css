@@ -1,0 +1,142 @@
+/* common styles */
+ @font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/Roboto-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto-Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: url('fonts/Roboto-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto-Black';
+  font-style: normal;
+  font-weight: 900;
+  src: url('fonts/Roboto-Black.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Arial-Italic';
+  font-style: italic;
+  font-weight: 400;
+  src: url('fonts/Arial-Italic.ttf') format('truetype');
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column;
+}
+.section-container {
+    max-width: 1440px;
+    padding: 0 120px;
+/*    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0;
+    grid-row-gap: 100px;
+*/
+}
+
+/* shapes */
+.bg-element-container {
+    position: relative;
+    z-index: -1;
+    bottom: 300px;
+    align-self: end;
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.bg-element {
+    position: relative;
+    top: 120px;
+    left: 120px;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 80px #d64637 solid;
+ }
+
+.tapigo-container {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #2f7cc0;
+ }
+
+.user-figure {
+    position: relative;
+    z-index: -1;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 25px #2f7cc0 solid;
+ }
+
+/*  */
+
+.heading {
+    color: #bdbcbd;
+    font-size: 72px;
+    font-family: 'Roboto-Black';
+}
+
+.cash-flow {
+    display: inline-block;
+    margin-right: 150px;
+    margin-top: 150px;
+}
+
+.heading-cash {
+    font-size: 48px;
+    font-family: 'Roboto-Black';
+    margin: 0;
+}
+
+.heading-cash small {
+    font-size: 18px;
+}
+
+
+ .description-cash {
+    font-family: 'Arial-Italic', italic;
+ }
+
+ .target {
+    width: 100rem;
+    max-width: 1440px;
+    background-color: #e4e5e6;
+ }
+
+
+ .heading-target {
+    display: inline-block;
+    margin-right: 150px;
+    font-size: 72px;
+    font-family: 'Roboto-Black';
+ }
+
+ .heading-target small {
+    font-size: 18px;
+ }
+
+.description-target {
+    display: inline-block;
+    font-family: 'Arial-Italic';
+}
+
+.description-target b {
+    font-size: 18px;
+}
