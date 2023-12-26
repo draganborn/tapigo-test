@@ -36,16 +36,15 @@ body {
 }
 .section-container {
     max-width: 1440px;
-    padding: 0 120px;
-/*    display: grid;
+   /* padding: 0 120px;*/
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-column-gap: 0;
     grid-row-gap: 100px;
-*/
 }
 
-/* shapes */
+/* background shapes */
 .bg-element-container {
     position: relative;
     z-index: -1;
